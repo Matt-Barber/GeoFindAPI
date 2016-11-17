@@ -1,0 +1,3 @@
+[submodule "StrangeJS"]
+	path = StrangeJS
+	url = git@github.com:Matt-Barber/StrangeJS.git
