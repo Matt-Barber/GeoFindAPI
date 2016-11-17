@@ -1,5 +1,5 @@
 var restify = require('restify')
-var GeoFind = require('./StrangeJS/GeoFind/GeoFind.js')
+var GeoFind = require(__dirname + '/StrangeJS/GeoFind/GeoFind.js')
 
 /**
  * Authentication middleware - let's secure the route
