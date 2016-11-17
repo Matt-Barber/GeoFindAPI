@@ -47,6 +47,6 @@ server.use(restify.CORS({
 server.post({path: '/api/geo', version: '1.0.0'}, authenticate, respond)
 
 
-server.listen(8080, (e) => {
+server.listen((process.env.PORT || 8080), (e) => {
     console.log('%s listening at %s', server.name, server.url)
 })
